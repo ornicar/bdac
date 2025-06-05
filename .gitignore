@@ -1,0 +1,4 @@
+.venv
+bdac.log
+__pycache__
+*config.bdac
