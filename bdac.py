@@ -44,7 +44,7 @@ import json
 import time
 import curses
 import datetime
-sys.path.append('/usr/local/share/bdac')
+# sys.path.append('/usr/local/share/bdac')
 from bdac_gui import BdacTerm
 from time import sleep
 from serial import Serial, SerialException

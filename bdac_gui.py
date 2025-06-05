@@ -23,7 +23,7 @@ import time
 import curses
 import datetime
 
-sys.path.append('/usr/local/share/bdac')
+# sys.path.append('/usr/local/share/bdac')
 
 from time import sleep
 from serial import Serial, SerialException
@@ -123,13 +123,8 @@ class BdacTerm():
 
     def show_intro(self):
         helptext = """
-            Welcome to:
-             _         _            
-            | |__   __| | __ _  ___ 
-            | '_ \ / _` |/ _` |/ __|
-            | |_) | (_| | (_| | (__ 
-            |_.__/ \__,_|\__,_|\___|  """
-        # created with figlet
+            Welcome to: bdac
+            """
 
         self.screen.erase()
         self.screen.addstr(2, 2, helptext)
