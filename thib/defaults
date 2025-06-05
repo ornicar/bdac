@@ -1,0 +1,63 @@
+Manufacturer:   -> HZXT
+Model:          -> SZZ9
+Hardware-Ver    -> V1.1
+Firmware-Ver:   -> V2.0.1.1
+Voltage:        -> 48V
+Max Current:    -> 25A
+Current Bafang controller flash settings with explainations.
+
+[Basic]
+LBP	41	Low battery protection, voltage where the motor will quit
+LC	24	Current limit, Maximum current allowed to flow to motor
+ALC0	0	Assist level 0 current setting in percent
+ALC1	52	Assist level 1 current setting in percent
+ALC2	58	Assist level 2 current setting in percent
+ALC3	64	Assist level 3 current setting in percent
+ALC4	70	Assist level 4 current setting in percent
+ALC5	76	Assist level 5 current setting in percent
+ALC6	82	Assist level 6 current setting in percent
+ALC7	88	Assist level 7 current setting in percent
+ALC8	94	Assist level 8 current setting in percent
+ALC9	100	Assist level 9 current setting in percent
+ALSL0	0	Assist level 0 speed limit percentage
+ALSL1	36	Assist level 1 speed limit percentage
+ALSL2	44	Assist level 2 speed limit percentage
+ALSL3	52	Assist level 3 speed limit percentage
+ALSL4	60	Assist level 4 speed limit percentage
+ALSL5	68	Assist level 5 speed limit percentage
+ALSL6	76	Assist level 6 speed limit percentage
+ALSL7	84	Assist level 7 speed limit percentage
+ALSL8	92	Assist level 8 speed limit percentage
+ALSL9	100	Assist level 9 speed limit percentage
+WD	52	Wheel diameter in inches / 2 - (26.0 inches)
+SM	1	Speed meter type, and signals, BBS kits type is 0 or EXTERNAL
+
+[Pedal Assist]
+PT	3	Pedal sensor type, set by manufacturer, don't change
+DA	255	Designated assist level - by display or 0-9
+SL	255	Maximum speed limit which motor will assist to
+SC	50	Start current % when rotating the pedals, recommend 10%
+SSM	4	Slow start mode, how quickly start current is reached, recommend 4
+SDN	4	Start degree, how many pedal pulses needed to start motor, recommed 4
+WM	255	Work mode, angular pedal speed * 10, leave as set by manufacturer
+SD	25	Stop delay * 10ms, delay after pedalling stops for motor to stop
+CD	8	Current decay 1-8, how fast the current drops when pedaling faster
+TS	0	Stop delay * 10ms, Time it takes for motor to stop
+KC	60	Keep current %, Max current flowing at assist level, when pedaling
+
+[Throttle Handle]
+SV	11	Start voltage * 100mV, Throttle handle voltage when motor starts
+EV	36	End voltage * 100mV, Throttle handle voltage when motor is at max power
+MODE	1	Mode of throttle handle, 0="speed", 1="current"
+DA	255	Designated assist level for throttle 0-9 or Display
+SL	40	Maximum speed level of throttle
+SC	10	Start current % for minimum throttle
+
+
+
+
+
+
+-----
+
+
