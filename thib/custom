@@ -8,15 +8,15 @@ Current Bafang controller flash settings with explainations.
 
 [Basic]
 LBP	41	Low battery protection, voltage where the motor will quit
-LC	20	Current limit, Maximum current allowed to flow to motor
+LC	19	Current limit, Maximum current allowed to flow to motor
 ALC0	0	Assist level 0 current setting in percent
-ALC1	15	Assist level 1 current setting in percent
-ALC2	30	Assist level 2 current setting in percent
-ALC3	45	Assist level 3 current setting in percent
-ALC4	60	Assist level 4 current setting in percent
-ALC5	75	Assist level 5 current setting in percent
-ALC6	100	Assist level 6 current setting in percent
-ALC7	100	Assist level 7 current setting in percent
+ALC1	12	Assist level 1 current setting in percent
+ALC2	24	Assist level 2 current setting in percent
+ALC3	36	Assist level 3 current setting in percent
+ALC4	48	Assist level 4 current setting in percent
+ALC5	60	Assist level 5 current setting in percent
+ALC6	72	Assist level 6 current setting in percent
+ALC7	84	Assist level 7 current setting in percent
 ALC8	100	Assist level 8 current setting in percent
 ALC9	100	Assist level 9 current setting in percent
 ALSL0	0	Assist level 0 speed limit percentage
@@ -40,7 +40,7 @@ SC	20	Start current % when rotating the pedals, recommend 10%
 SSM	4	Slow start mode, how quickly start current is reached, recommend 4
 SDN	4	Start degree, how many pedal pulses needed to start motor, recommed 4
 WM	255	Work mode, angular pedal speed * 10, leave as set by manufacturer
-SD	20	Stop delay * 10ms, delay after pedalling stops for motor to stop
+SD	15	Stop delay * 10ms, delay after pedalling stops for motor to stop
 CD	8	Current decay 1-8, how fast the current drops when pedaling faster
 TS	0	Stop delay * 10ms, Time it takes for motor to stop
 KC	60	Keep current %, Max current flowing at assist level, when pedaling
